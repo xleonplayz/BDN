@@ -367,4 +367,5 @@ if __name__ == "__main__":
     plt.title(f'NV-Zentrum Monte Carlo ({N_RUNS} Läufe)')
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
-    plt.show()
+    plt.savefig("pulse_histogram.png")
+    print("Saved pulse histogram to pulse_histogram.png")
